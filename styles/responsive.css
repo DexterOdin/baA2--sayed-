@@ -1,0 +1,31 @@
+/* responsive navbar section start */
+@media only screen and (max-width: 600px) {
+    .navigation {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .menu_part {
+        display: none;
+    }
+
+    .logo_part {
+        padding-bottom: 15px;
+    }
+
+    .hamburger {
+        display: inline-block;
+        right: 20px;
+        top: 18px;
+    }
+
+    .hamburger i {
+        color: #000;
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+
+    .hamburger i:hover {}
+}
+
+/* responsive navbar section end */
